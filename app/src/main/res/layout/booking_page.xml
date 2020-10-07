@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="129dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        tools:text="Contact us" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="129dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        tools:text="About" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="130dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="E-Wallet" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="129dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="My bookings" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rounded_button"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="  Enter Destination"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="  Enter Source"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="159dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="235dp"
+        android:layout_height="66dp"
+        android:text="Welcome to train booking system"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
